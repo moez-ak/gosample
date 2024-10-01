@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_moez_ak_gosample_1727777810307-push-trigger-input-set
+  identifier: Build_moez_ak_gosample_1727777810307pushtriggerinputset
+  orgIdentifier: gft_sandbox_organization
+  projectIdentifier: moez_lavji
+  pipeline:
+    identifier: Build_moez_ak_gosample_1727777810307
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
